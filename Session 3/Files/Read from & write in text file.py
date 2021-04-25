@@ -18,7 +18,7 @@ for line in myFile:
 
 myFile.close()
 
-################################
+###############################################################
 
 # Writing in a file:
 
@@ -35,10 +35,12 @@ myFile = open('output2.txt', 'a')
 myFile.writelines(['\nfirst sentence!', '\n',  'second sentence!'])
 myFile.close()
 
-################################
+###############################################################
 
 # Reading from or writing in the same file:
 myFile = open('mixed.txt', 'r+')
 print(myFile.read())
 myFile.writelines(['\nfirst sentence!', '\n',  'second sentence!'])
 myFile.close()
+
+###############################################################
