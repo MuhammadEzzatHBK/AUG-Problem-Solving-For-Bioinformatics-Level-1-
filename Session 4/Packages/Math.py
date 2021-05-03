@@ -1,0 +1,15 @@
+import math
+
+print('sqrt: ', math.sqrt(4))
+print('Power', math.pow(2, 5))
+print('Ceil -> Int-upCast: ', math.ceil(4.2))
+print('Floor -> Int-downCast: ', math.floor(3.7))
+print('Absolute: ', math.fabs(-40))
+print('Factorial: ', math.factorial(5))
+print('Mod: ', math.fmod(15, 2))
+print('Exp: ', math.exp(50))
+print('Logarithm: ', math.log(8, 2))
+print('Cos: ', math.cos(math.radians(60)))
+print('Arc-Sin: ', math.degrees(math.asin(0.5)))
+print('Pi: ', math.pi)
+print('e: ', math.e)
